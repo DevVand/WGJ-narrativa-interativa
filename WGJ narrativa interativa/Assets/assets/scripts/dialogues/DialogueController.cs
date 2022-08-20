@@ -16,7 +16,6 @@ public class DialogueController : MonoBehaviour
     //[SerializeField] LocalizeStringEvent textAtTopLocalize;
     //[SerializeField] protected float angle = 45;
     [SerializeField] protected float delayBetweenSubMain = .2f;
-    [SerializeField] Color exclColor = Color.white;
     //[SerializeField] bool returnControlsAfterFinished = true;
 
     public bool skippableText = true;
