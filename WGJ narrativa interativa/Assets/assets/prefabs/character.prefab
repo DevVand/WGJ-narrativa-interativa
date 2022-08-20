@@ -144,6 +144,7 @@ MonoBehaviour:
   hoverC: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   clickC: {r: 0, g: 0, b: 0, a: 1}
   spr: {fileID: 2011119375367853773}
+  alwaysAcceptMouse: 0
 --- !u!58 &2011119375367853770
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -365,7 +366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011119376070762417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
