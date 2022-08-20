@@ -3,9 +3,18 @@ using UnityEngine.Events;
 
 public class ExecuteOnClick : MonoBehaviour
 {
+    MouseManager mouse;
+    [SerializeField] bool alwaysAcceptMouse;
+    private void Start()
+    {
+        if(!alwaysAcceptMouse)
+            mouse = GameObject.FindGameObjectWithTag("Mouse").GetComponent<MouseManager>();
+    }
     public UnityEvent action;
     private void OnMouseDown()
     {
-        action.Invoke();
+        if (alwaysAcceptMouse || !mouse.onDialogue) { 
+            action.Invoke();
+        }
     }
 }
