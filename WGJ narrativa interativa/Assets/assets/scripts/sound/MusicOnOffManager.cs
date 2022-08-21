@@ -34,5 +34,5 @@ public class MusicOnOffManager : MonoBehaviour
 public class Track
 {
     public AudioSource track;
-    public float volume = 1;
+    public float volume = 0;
 }
