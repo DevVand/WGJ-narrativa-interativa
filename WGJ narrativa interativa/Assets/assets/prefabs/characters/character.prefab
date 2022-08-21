@@ -234,6 +234,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 7164286878322333825}
+        m_TargetAssemblyTypeName: PlayRandomPitchSounds, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   exitEvents:
     m_PersistentCalls:
       m_Calls:
@@ -246,6 +258,45 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7164286878322333825}
+        m_TargetAssemblyTypeName: PlayRandomPitchSounds, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1265275030271119154}
+        m_TargetAssemblyTypeName: MusicManagerStatic, Assembly-CSharp
+        m_MethodName: turnOff
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  stayEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1265275030271119154}
+        m_TargetAssemblyTypeName: MusicManagerStatic, Assembly-CSharp
+        m_MethodName: turnOn
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -349,11 +400,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5105669130591902407}
   - component: {fileID: 5105669130591902404}
-  - component: {fileID: 5105669130591902405}
   - component: {fileID: 9024734578052408732}
+  - component: {fileID: 5105669130591902405}
+  - component: {fileID: 4223852955999269886}
   - component: {fileID: 5105669130591902406}
   - component: {fileID: 5105669130591902403}
-  - component: {fileID: 4223852955999269886}
   m_Layer: 0
   m_Name: sprite
   m_TagString: Char
@@ -428,58 +479,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5105669130591902405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5105669130591902264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e66bd77c4284668408bc2abb0d5ecb5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alwaysAcceptMouse: 0
-  action:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5105669129528940680}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: fb
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 4952636243223738696}
-        m_TargetAssemblyTypeName: DCDefaultDialogue, Assembly-CSharp
-        m_MethodName: startDialog
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 7164286878322333825}
-        m_TargetAssemblyTypeName: PlayRandomPitchSounds, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &9024734578052408732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,7 +569,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   fadeTime: 1
---- !u!114 &5105669130591902406
+--- !u!114 &5105669130591902405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -579,30 +578,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 5105669130591902264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52de4d6a0992bb43a286fddf25bedf4, type: 3}
+  m_Script: {fileID: 11500000, guid: e66bd77c4284668408bc2abb0d5ecb5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   alwaysAcceptMouse: 0
-  idleC: {r: 1, g: 1, b: 1, a: 1}
-  hoverC: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  clickC: {r: 0, g: 0, b: 0, a: 1}
-  spr: {fileID: 5105669130591902404}
---- !u!58 &5105669130591902403
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5105669130591902264}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5105669129528940680}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: fb
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4952636243223738696}
+        m_TargetAssemblyTypeName: DCDefaultDialogue, Assembly-CSharp
+        m_MethodName: startDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7164286878322333825}
+        m_TargetAssemblyTypeName: PlayRandomPitchSounds, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4223852955999269886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -646,6 +664,39 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5105669130591902406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5105669130591902264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52de4d6a0992bb43a286fddf25bedf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alwaysAcceptMouse: 0
+  idleC: {r: 1, g: 1, b: 1, a: 1}
+  hoverC: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  clickC: {r: 0, g: 0, b: 0, a: 1}
+  spr: {fileID: 5105669130591902404}
+--- !u!58 &5105669130591902403
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5105669130591902264}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &8423826570491391187
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734487854826462398}
   - component: {fileID: 7164286878322333825}
+  - component: {fileID: 1265275030271119154}
   - component: {fileID: 4908530935415634821}
   m_Layer: 0
   m_Name: sounds
@@ -695,8 +747,23 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c2a3151c88d2dd04a8ba496171759b22, type: 3}
   - {fileID: 8300000, guid: f5cf0972c67d57c4691db4077aa65f0a, type: 3}
   - {fileID: 8300000, guid: c97f54667ae6e5245bed6179e3aea11d, type: 3}
+  - {fileID: 8300000, guid: f4d4f34792837b9438af2484b0204df7, type: 3}
+  - {fileID: 8300000, guid: 9345424bd0fe14e4c814a13cb88badb2, type: 3}
   minPitch: 75
   maxPitch: 120
+--- !u!114 &1265275030271119154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8423826570491391187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d234054a13054439ba722ea71db72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
 --- !u!82 &4908530935415634821
 AudioSource:
   m_ObjectHideFlags: 0
