@@ -23,10 +23,10 @@ public class PlayerWalk : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && (!mouse.onDialogue)) {
+        if (Input.GetMouseButtonDown(0) && (!mouse.onDialogue && !mouse.onInventory)) {
             walk();
         }
-        if (Input.GetMouseButtonUp(0) && (!mouse.onDialogue))
+        if (Input.GetMouseButtonUp(0) && (!mouse.onDialogue && !mouse.onInventory))
         {
             CancelInvoke(nameof(walk));
         }

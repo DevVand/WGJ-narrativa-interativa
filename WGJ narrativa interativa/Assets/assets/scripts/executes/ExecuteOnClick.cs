@@ -13,7 +13,7 @@ public class ExecuteOnClick : MonoBehaviour
     public UnityEvent action;
     private void OnMouseDown()
     {
-        if (alwaysAcceptMouse || !mouse.onDialogue) { 
+        if (alwaysAcceptMouse || (!mouse.onDialogue && !mouse.onInventory)) { 
             action.Invoke();
         }
     }

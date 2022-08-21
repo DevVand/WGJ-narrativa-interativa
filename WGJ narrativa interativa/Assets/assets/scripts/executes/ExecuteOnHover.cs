@@ -15,14 +15,14 @@ public class ExecuteOnHover : MonoBehaviour
     }
     private void OnMouseEnter()
     {
-        if (alwaysAcceptMouse || !mouse.onDialogue)
+        if (alwaysAcceptMouse || (!mouse.onDialogue && !mouse.onInventory))
         {
             enter.Invoke();
         }
     }
     private void OnMouseExit()
     {
-        if (alwaysAcceptMouse || !mouse.onDialogue)
+        if (alwaysAcceptMouse || (!mouse.onDialogue && !mouse.onInventory))
         {
             exit.Invoke();
         }
