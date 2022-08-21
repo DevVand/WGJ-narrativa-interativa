@@ -175,4 +175,8 @@ public class DialogueController : MonoBehaviour
 
     public void setSkippableTo(bool to) { skippableText = to; }
     public void DontSkipThisText() { dontSkipThisText = true; }
+
+    public void setNewDialogLines(Dialogs newDialogs) {
+        dialogLines = newDialogs;
+    }
 }

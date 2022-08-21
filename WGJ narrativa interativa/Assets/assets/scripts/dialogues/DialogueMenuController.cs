@@ -435,7 +435,6 @@ public class DialogueMenuController : MonoBehaviour
     }
     public void playingTextOff()
     {
-        print("off");
         CancelInvoke(nameof(playingTextOff));
         playingText = false;
         foreach (TextAnimatorPlayer mainTextPlayer in mainTextPlayers)

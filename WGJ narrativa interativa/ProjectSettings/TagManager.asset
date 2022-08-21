@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Dialogue
   - Mouse
+  - Char
+  - Music Manager
   layers:
   - Default
   - TransparentFX

@@ -11,6 +11,7 @@ public class ExecuteOnClick : MonoBehaviour
             mouse = GameObject.FindGameObjectWithTag("Mouse").GetComponent<MouseManager>();
     }
     public UnityEvent action;
+    
     private void OnMouseDown()
     {
         if (alwaysAcceptMouse || (!mouse.onDialogue && !mouse.onInventory)) { 

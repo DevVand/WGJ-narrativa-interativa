@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3630893651197332225
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.99717563
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443622, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125366851612443623, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: m_Name
+      value: dialogue collider narrative
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120125773302798120, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: dialogs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+--- !u!114 &814630391480818729 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4120125773302798120, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+  m_PrefabInstance: {fileID: 3630893651197332225}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818343873440811238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44462403041478442980ba07af2ca887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1818343873440811238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3125366851612443623, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+  m_PrefabInstance: {fileID: 3630893651197332225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4312365616771523924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818343873440811238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a36c2a98677db4ea1060a60e405a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBetweenSubMain: 0.2
+  skippableText: 1
+  dontSkipThisText: 0
+  dialogLines: {fileID: 814630391480818729}
+  dialogueMenu: {fileID: 0}
+  focusedDelayOut: 1
+  focusedDelayIn: 1
+  firstAppearDelay: 0.1
+  betweenDelay: 0.3
+  fadeAfterFinished: 1

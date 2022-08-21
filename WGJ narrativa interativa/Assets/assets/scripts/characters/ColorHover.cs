@@ -3,14 +3,14 @@ using Lean.Transition;
 
 public class ColorHover : MonoBehaviour
 {
+    [SerializeField] bool alwaysAcceptMouse;
+
     [SerializeField] Color idleC = Color.white;
     [SerializeField] Color hoverC = Color.gray;
     [SerializeField] Color clickC = Color.black;
     [SerializeField] SpriteRenderer spr;
 
     MouseManager mouse;
-    [SerializeField] bool alwaysAcceptMouse;
-
     private void Start()
     {
         if (!alwaysAcceptMouse)

@@ -27,12 +27,12 @@ public class InventoryInteraction : MonoBehaviour
             {
                 opened = false;
                 mouse.setOnInventory(false);
-                inventory.localPositionTransition(closePos.localPosition, time);
+                inventory.localPositionTransition(closePos.localPosition, time, LeanEase.QuadInOut);
             }
             else {
                 opened = true;
                 Invoke(nameof(setInventoryTrue), .1f);
-                inventory.localPositionTransition(openPos.localPosition, time);
+                inventory.localPositionTransition(openPos.localPosition, time, LeanEase.QuadInOut);
             }
         }
     }
