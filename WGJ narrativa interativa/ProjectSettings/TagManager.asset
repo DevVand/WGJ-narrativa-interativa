@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Dialogue
   - Mouse
+  - Char
   layers:
   - Default
   - TransparentFX

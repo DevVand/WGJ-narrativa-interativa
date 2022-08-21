@@ -2,6 +2,8 @@ using UnityEngine;
 using Lean.Transition;
 public class ItemDrag : MonoBehaviour
 {
+    [SerializeField] int itemIndex = 0;
+
     Camera mainCamera;
     [SerializeField] Transform returnPos;
     [SerializeField] Transform realPos;
@@ -9,10 +11,12 @@ public class ItemDrag : MonoBehaviour
     [SerializeField] float zPos;
 
     [SerializeField] float smooth = 10;
-    [SerializeField] float returnTime = .5f;
+    [SerializeField] float returnTime = .4f;
 
     MouseManager mouse;
     [SerializeField] bool alwaysAcceptMouse;
+
+    GameObject actualCharacter;
 
     bool draggingThis = false;
     private void Start()
@@ -30,7 +34,14 @@ public class ItemDrag : MonoBehaviour
     private void OnMouseUp()
     {
         draggingThis = false;
-        realPos.localPositionTransition(returnPos.localPosition, returnTime);
+        if (actualCharacter!=null && giveItem())
+        {
+            //MUDAR PARA TIRAR O ITEM
+            realPos.localPositionTransition(returnPos.localPosition, returnTime, LeanEase.CubicInOut);
+        }
+        else {
+            realPos.localPositionTransition(returnPos.localPosition, returnTime, LeanEase.CubicInOut);
+        }
     }
     private void OnMouseDrag()
     {
@@ -52,5 +63,24 @@ public class ItemDrag : MonoBehaviour
             return hit.point;
         }
         return Vector3.zero;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        print(collision.name);
+        if (collision.CompareTag("Char")) {
+            actualCharacter = collision.gameObject;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Char"))
+        {
+            actualCharacter = null;
+        }
+    }
+
+    bool giveItem() {
+        return actualCharacter.GetComponent<CharItem>().giveItem(itemIndex);
     }
 }

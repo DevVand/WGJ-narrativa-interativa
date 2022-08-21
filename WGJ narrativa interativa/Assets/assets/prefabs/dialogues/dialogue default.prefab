@@ -53,7 +53,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3125366851612443623, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
       propertyPath: m_Name
-      value: dialogue collider default
+      value: dialogue default
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120125773302798120, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: dialogs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120125773302798120, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: dialogueEnded.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120125773302798120, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: dialogueEnded.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120125773302798120, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: dialogueEnded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5009834670967317450}
+    - target: {fileID: 4120125773302798120, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
+      propertyPath: dialogueEnded.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 903ec659b34652c4288f7684189ff8c1, type: 3}
@@ -74,23 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350d1dc7ce6043445a6e982b5c086c55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textAtTop:
-    m_TableReference:
-      m_TableCollectionName: 
-    m_TableEntryReference:
-      m_KeyId: 0
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables: []
-  angle: 45
   delayBetweenSubMain: 0.2
-  exclColor: {r: 1, g: 1, b: 1, a: 1}
-  returnControlsAfterFinished: 1
   skippableText: 1
   dontSkipThisText: 0
   dialogLines: {fileID: 0}
   dialogueMenu: {fileID: 0}
-  references:
-    version: 2
-    RefIds: []
