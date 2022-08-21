@@ -13,6 +13,8 @@ public class PlayerWalk : MonoBehaviour
     [SerializeField] float holdTime = .5f;
 
     [SerializeField] UnityEvent step;
+    [SerializeField] UnityEvent left;
+    [SerializeField] UnityEvent right;
 
     bool canGoLeft = true;
     bool canGoRight = true;
@@ -49,6 +51,7 @@ public class PlayerWalk : MonoBehaviour
                     if (hit.point.x < transform.position.x && canGoLeft)
                     {
                         step.Invoke();
+                        left.Invoke();
                         transform.positionTransition_x(
                             transform.position.x + -1 * ((velocity / 2) + ((velocity / 2) * dist)),
                             time
@@ -57,6 +60,7 @@ public class PlayerWalk : MonoBehaviour
                     else if (hit.point.x > transform.position.x && canGoRight)
                     {
                         step.Invoke();
+                        right.Invoke();
                         transform.positionTransition_x(
                             transform.position.x + 1 * ((velocity / 2) + ((velocity / 2) * dist)),
                             time

@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class ExecuteOnPlayerTrigger : MonoBehaviour
 {
+    public bool inside = false;
+
     public UnityEvent events;
     public UnityEvent exitEvents;
     public UnityEvent stayEvents;
@@ -13,6 +15,7 @@ public class ExecuteOnPlayerTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            inside = true;
             events.Invoke();
         }
     }
@@ -21,6 +24,7 @@ public class ExecuteOnPlayerTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            inside = false;
             exitEvents.Invoke();
         }
     }
@@ -29,6 +33,7 @@ public class ExecuteOnPlayerTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            inside = true;
             stayEvents.Invoke();
         }
     }
