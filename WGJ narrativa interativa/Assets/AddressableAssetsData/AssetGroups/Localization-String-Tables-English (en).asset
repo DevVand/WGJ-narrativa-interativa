@@ -47,6 +47,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
+  - m_GUID: 5637dde424a9cbe43b6782699b122ba0
+    m_Address: pouvo booze_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: d212ae16f0a987b4aa62074b8796687e
+    m_Address: first dialogue ended_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: ab7d0afac7aaef94e8753ac92875449b, type: 2}
   m_SchemaSet:

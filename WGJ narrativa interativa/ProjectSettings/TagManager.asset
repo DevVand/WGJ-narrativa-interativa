@@ -16,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Inventory
   - 
   - 
   - 
@@ -45,4 +45,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: abajur
+    uniqueID: 1181582725
+    locked: 0
+  - name: main char
+    uniqueID: 1326796663
+    locked: 0
+  - name: front bg
+    uniqueID: 833628399
+    locked: 0
+  - name: inv
+    uniqueID: 4071123411
     locked: 0

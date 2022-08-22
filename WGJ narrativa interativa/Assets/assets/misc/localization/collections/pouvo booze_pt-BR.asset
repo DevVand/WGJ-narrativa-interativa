@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: pouvo booze_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: af9a899029fb09d40b0b1fa817b68187, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9121210368
+    m_Localized: "maAAano, acho que eu n\xE3o devia ter tentado nem os corotinhos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12459876352
+    m_Localized: e sabe o pior? eu nem achei o gosto bom <wiggle>*arroto*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14934515712
+    m_Localized: "eu s\xF3 continuei bebendo pra me embebedar e sei l\xE1 o qu\xEA
+      depois"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17061027840
+    m_Localized: eu queria esquecer das coisas, talvez de tudo ao meu redor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19502112768
+    m_Localized: "mas eu acho que c\xEA tem que estar na vibe certa n\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559401312256
+    m_Localized: "se n\xE3o s\xF3 fica tudo estranho"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563599810560
+    m_Localized: "sabe\u2026 talvez ajudar na limpeza ocupe a minha mente um pouco"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 564648386560
+    m_Localized: "talvez me fa\xE7a esquecer as coisas de um outro jeito por um tempo\u2026"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -19,15 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 6273277952
-    m_Localized: " \_"
+    m_Localized: "<color=#63b5c9ff>Julia (voc\xEA)"
     m_Metadata:
       m_Items: []
   - m_Id: 7373148823552
-    m_Localized: test1
+    m_Localized: <color=#53eaa2ff>glub
     m_Metadata:
       m_Items: []
   - m_Id: 7400722178048
-    m_Localized: test2
+    m_Localized: " \_"
     m_Metadata:
       m_Items: []
   - m_Id: 119980946006016

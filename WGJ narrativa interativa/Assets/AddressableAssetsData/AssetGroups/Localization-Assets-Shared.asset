@@ -37,6 +37,15 @@ MonoBehaviour:
     m_Address: Assets/assets/misc/localization/collections/leaving Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: af9a899029fb09d40b0b1fa817b68187
+    m_Address: Assets/assets/misc/localization/collections/pouvo booze Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 4be248b4e0e4c2440b1eed17ab562582
+    m_Address: Assets/assets/misc/localization/collections/first dialogue ended Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: ab7d0afac7aaef94e8753ac92875449b, type: 2}
   m_SchemaSet:
