@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "z\xE9 passarildo_pt-BR"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: bb4e7ebf5e307d342831903537625533, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11063173120
+    m_Localized: "Hum\u2026 Acho que vir nessa festa foi um erro. No fim s\xF3 fumei
+      uns\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14842241024
+    m_Localized: "\rAh, voc\xEA me conhece de algum lugar, voc\xEA diz? "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16926810112
+    m_Localized: "Ah\u2026 Quando eu era jovem eu aparecia na TV"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19145596928
+    m_Localized: "Acho que voc\xEA era crian\xE7a. Talvez voc\xEA nem nascida era,
+      hehe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24883404800
+    m_Localized: "\rVoc\xEA tamb\xE9m me acha muito velho pra estar aqui, n\xE3o
+      acha? "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28100435968
+    m_Localized: "Eu sei, s\xF3 tem jovem aqui. Ugh. Tempos que n\xE3o voltam mais"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28855410688
+    m_Localized: "Jovem, quando eu tinha sua idade eu cantava, fazia m\xFAsica com
+      tudo que me dessem"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29572636672
+    m_Localized: Usei toda minha juventude praticando
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30260502528
+    m_Localized: "Todo dia, toda noite cantando, praticando todos os instrumentos
+      poss\xEDveis"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30998700032
+    m_Localized: " Viol\xE3o, guitarra, banjo, piano, flauta\u2026 Todo tipo mesmo.
+      Da\xED eu aparecia na TV"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31749480448
+    m_Localized: "Mas agora sinto que n\xE3o aproveitei minha juventude direito,
+      sabe?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1924148142080
+    m_Localized: "N\xE3o ia em festas, n\xE3o aproveitei nada\u2026 Que desperd\xEDcio..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

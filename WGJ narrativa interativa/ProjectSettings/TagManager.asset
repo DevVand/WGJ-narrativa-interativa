@@ -9,6 +9,7 @@ TagManager:
   - Char
   - Music Manager
   - Player Anim
+  - Inv
   layers:
   - Default
   - TransparentFX

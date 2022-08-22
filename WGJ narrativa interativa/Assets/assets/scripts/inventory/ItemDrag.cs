@@ -16,11 +16,13 @@ public class ItemDrag : MonoBehaviour
     MouseManager mouse;
     [SerializeField] bool alwaysAcceptMouse;
 
+    InventoryInteraction inv;
     GameObject actualCharacter;
 
     bool draggingThis = false;
     private void Start()
     {
+        inv = GameObject.FindGameObjectWithTag("Inv").GetComponent<InventoryInteraction>();
         zPos = realPos.position.z;
         mainCamera = Camera.main;
         if (!alwaysAcceptMouse)
@@ -33,6 +35,8 @@ public class ItemDrag : MonoBehaviour
     }
     private void OnMouseUp()
     {
+        if (draggingThis)
+            inv.close();
         draggingThis = false;
         if (actualCharacter!=null && giveItem())
         {

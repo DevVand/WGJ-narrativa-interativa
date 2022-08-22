@@ -46,6 +46,11 @@ MonoBehaviour:
       Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: bb4e7ebf5e307d342831903537625533
+    m_Address: "Assets/assets/misc/localization/collections/z\xE9 passarildo Shared
+      Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: ab7d0afac7aaef94e8753ac92875449b, type: 2}
   m_SchemaSet:

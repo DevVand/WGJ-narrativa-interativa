@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "z\xE9 passarildo_en"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: bb4e7ebf5e307d342831903537625533, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11063173120
+    m_Localized: "Bruh\u2026 I made a mistake by coming here. All I did was smoke
+      some joints\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14842241024
+    m_Localized: Oh, you say you know me from somewhere?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16926810112
+    m_Localized: "Well\u2026 When I was younger I appeared on TV! "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19145596928
+    m_Localized: "I think you were a kid. Maybe you weren\u2019t even born, heh!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24883404800
+    m_Localized: "You think I\u2019m too old for being in this party, don\u2019t
+      you? "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28100435968
+    m_Localized: "Too many young people here. Ugh\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28855410688
+    m_Localized: Kid, when I was young I used to sing and make music from everything
+      people gave me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29572636672
+    m_Localized: I used all my youth practicing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30260502528
+    m_Localized: "Every day and every night singing, practicing guitar, banjo, piano,
+      flute\u2026 you name it"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30998700032
+    m_Localized: Then I appeared on TV.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

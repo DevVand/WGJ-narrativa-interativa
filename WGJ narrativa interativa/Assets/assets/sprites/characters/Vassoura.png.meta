@@ -124,7 +124,7 @@ TextureImporter:
         width: 276
         height: 324
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -132,27 +132,6 @@ TextureImporter:
       bones: []
       spriteID: 08b43165ea5d26242ba78f047ca3b1c1
       internalID: 442499155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vassoura_1
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 227
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 498a421368491ee4f919db44f12f51bc
-      internalID: -716226210
       vertices: []
       indices: 
       edges: []
@@ -166,7 +145,7 @@ TextureImporter:
         width: 404
         height: 523
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +166,7 @@ TextureImporter:
         width: 521
         height: 598
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -25,10 +25,8 @@ public class InventoryInteraction : MonoBehaviour
         {
             if (opened)
             {
-                opened = false;
-                mouse.setOnInventory(false);
-                inventory.localPositionTransition(closePos.localPosition, time, LeanEase.QuadInOut);
-            }
+                close();
+               }
             else {
                 opened = true;
                 Invoke(nameof(setInventoryTrue), .1f);
@@ -36,7 +34,12 @@ public class InventoryInteraction : MonoBehaviour
             }
         }
     }
-
+    public void close()
+    {
+        opened = false;
+        mouse.setOnInventory(false);
+        inventory.localPositionTransition(closePos.localPosition, time, LeanEase.QuadInOut);
+    }
     void setInventoryTrue()
     {
         mouse.setOnInventory(true);
