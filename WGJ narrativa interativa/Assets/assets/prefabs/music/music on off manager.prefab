@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3099086551955275920}
   m_Layer: 0
   m_Name: music on off manager
-  m_TagString: Untagged
+  m_TagString: Music Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe55762738c3cf740b4e05c7342dca74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   tracks:
   - track: {fileID: 8911288726096706036}
     volume: 0

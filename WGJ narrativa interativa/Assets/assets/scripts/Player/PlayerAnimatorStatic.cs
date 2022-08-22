@@ -15,9 +15,9 @@ public class PlayerAnimatorStatic : MonoBehaviour
 
     public void Step() {
         CancelInvoke(nameof(Wait));
+        Invoke(nameof(Wait), timeToWait);
         step = step > 1 ? 1 : 2;
         anim.SetTrigger("step"+step);
-        Invoke(nameof(Wait),timeToWait);
     }
     public void Wait() {
         anim.SetTrigger("wait");

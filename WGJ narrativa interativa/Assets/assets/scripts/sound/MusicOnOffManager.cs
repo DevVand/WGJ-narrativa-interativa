@@ -31,6 +31,20 @@ public class MusicOnOffManager : MonoBehaviour
             track.track.volumeTransition(0, time);
         } 
     }
+    public void turnAllOn(float time)
+    {
+        foreach (Track track in tracks)
+        {
+            track.track.volumeTransition(tracks[i].volume, time);
+        }
+    }
+    public void turnAllOn()
+    {
+        foreach (Track track in tracks)
+        {
+            track.track.volumeTransition(tracks[i].volume, time);
+        }
+    }
 }
 
 [System.Serializable]

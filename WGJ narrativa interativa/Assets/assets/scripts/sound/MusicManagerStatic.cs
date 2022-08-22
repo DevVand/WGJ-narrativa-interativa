@@ -6,14 +6,14 @@ public class MusicManagerStatic : MonoBehaviour
 {
     public int index = 0;
     MusicOnOffManager manager;
-    private void Start()
-    {
+    private void Start() {
+
         GameObject[] objs = GameObject.FindGameObjectsWithTag("Music Manager");
-        foreach (GameObject obj in objs) {
-            manager = obj.GetComponent<MusicOnOffManager>();
-            if (manager.index == index) {
-                break;
-            }
+        foreach (var o in objs)
+        {
+            var newO = o.GetComponent<MusicOnOffManager>();
+            if (newO.index == index)
+                manager = newO;
         }
     }
     public void turnOn(int i, float time) { manager.turnOn(i, time); }
@@ -31,5 +31,13 @@ public class MusicManagerStatic : MonoBehaviour
     public void turnAllOff()
     {
         manager.turnAllOff();
+    }
+    public void turnAllOn(float time)
+    {
+        manager.turnAllOn(time);
+    }
+    public void turnAllOn()
+    {
+        manager.turnAllOn();
     }
 }

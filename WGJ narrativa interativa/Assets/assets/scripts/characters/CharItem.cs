@@ -14,6 +14,7 @@ public class CharItem : MonoBehaviour
 
     [SerializeField] GameObject mainObject;
     [SerializeField] SpriteRenderer sprRenderer;
+    [SerializeField] BoxCollider2D col;
     [SerializeField] UnityEvent fadeOff;
     [SerializeField] float fadeTime = 1;
     public bool giveItem(int index) {
@@ -35,6 +36,7 @@ public class CharItem : MonoBehaviour
     }
 
     public void leave() {
+        col.offset = Vector2.up * 100;
         fadeOff.Invoke();
         sprRenderer.colorTransition(new Color(0, 0, 0, 0), fadeTime);
         Destroy(mainObject, 2);
