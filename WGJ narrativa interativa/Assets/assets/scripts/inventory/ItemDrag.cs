@@ -14,6 +14,7 @@ public class ItemDrag : MonoBehaviour
     [SerializeField] Transform realPos;
 
     [SerializeField] float zPos;
+    [SerializeField] float distanceFromOrigin=1.2f;
 
     [SerializeField] float smooth = 10;
     [SerializeField] float returnTime = .4f;
@@ -41,17 +42,20 @@ public class ItemDrag : MonoBehaviour
     }
     private void OnMouseExit()
     {
-        itemLocalize.StringReference = empty;
+        if (!draggingThis)
+            itemLocalize.StringReference = empty;
+
     }
     private void OnMouseDown()
     {
+        if (!draggingThis)
+            itemLocalize.StringReference = itemName;
         draggingThis = true;
-        itemLocalize.StringReference = empty;
     }
     private void OnMouseUp()
     {
         draggingThis = false;
-        if (actualCharacter!=null && giveItem())
+        if (actualCharacter!=null && Mathf.Abs(realPos.localPosition.y-returnPos.localPosition.y)>distanceFromOrigin && giveItem())
         {
             inv.close();
             //MUDAR PARA TIRAR O ITEM

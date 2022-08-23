@@ -69,7 +69,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: " \_"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -517,6 +517,7 @@ MonoBehaviour:
   returnPos: {fileID: 6765588613703342013}
   realPos: {fileID: 6765588614058143637}
   zPos: -4
+  distanceFromOrigin: 1.2
   smooth: 10
   returnTime: 0.4
   alwaysAcceptMouse: 0
