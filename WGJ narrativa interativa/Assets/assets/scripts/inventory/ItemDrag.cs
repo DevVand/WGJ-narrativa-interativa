@@ -1,10 +1,15 @@
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Components;
 using Lean.Transition;
+
 public class ItemDrag : MonoBehaviour
 {
     [SerializeField] int itemIndex = 0;
+    [SerializeField] LocalizedString itemName;
+    [SerializeField] LocalizedString empty;
+    [SerializeField] LocalizeStringEvent itemLocalize;
 
-    Camera mainCamera;
     [SerializeField] Transform returnPos;
     [SerializeField] Transform realPos;
 
@@ -13,8 +18,9 @@ public class ItemDrag : MonoBehaviour
     [SerializeField] float smooth = 10;
     [SerializeField] float returnTime = .4f;
 
-    MouseManager mouse;
     [SerializeField] bool alwaysAcceptMouse;
+    Camera mainCamera;
+    MouseManager mouse;
 
     InventoryInteraction inv;
     GameObject actualCharacter;
@@ -28,18 +34,26 @@ public class ItemDrag : MonoBehaviour
         if (!alwaysAcceptMouse)
             mouse = GameObject.FindGameObjectWithTag("Mouse").GetComponent<MouseManager>();
     }
-
+    private void OnMouseEnter()
+    {
+        if (!draggingThis)
+            itemLocalize.StringReference = itemName;
+    }
+    private void OnMouseExit()
+    {
+        itemLocalize.StringReference = empty;
+    }
     private void OnMouseDown()
     {
         draggingThis = true;
+        itemLocalize.StringReference = empty;
     }
     private void OnMouseUp()
     {
-        if (draggingThis)
-            inv.close();
         draggingThis = false;
         if (actualCharacter!=null && giveItem())
         {
+            inv.close();
             //MUDAR PARA TIRAR O ITEM
             realPos.localPositionTransition(returnPos.localPosition, returnTime, LeanEase.CubicInOut);
         }

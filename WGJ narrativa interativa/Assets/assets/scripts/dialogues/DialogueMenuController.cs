@@ -473,7 +473,7 @@ public class DialogueMenuController : MonoBehaviour
             foreach (RectTransform continueImg in continueImgs)
             {
                 continueImg.sizeDeltaTransition(Vector2.zero, continueSpeed, LeanEase.QuintInOut);
-                continueImg.sizeDeltaTransition(new Vector2(26, 53), continueSpeed, LeanEase.QuintInOut);
+                continueImg.sizeDeltaTransition(new Vector2(50, 50), continueSpeed, LeanEase.QuintInOut);
 
             }
         }
@@ -500,7 +500,7 @@ public class DialogueMenuController : MonoBehaviour
         continuePanel.sizeDelta = new Vector2(92.7f, 114);
         foreach (RectTransform continueImg in continueImgs)
         {
-            continueImg.sizeDelta = new Vector2(26, 53);
+            continueImg.sizeDelta = new Vector2(50, 50);
         }
     }
     void forceCloseContinue()

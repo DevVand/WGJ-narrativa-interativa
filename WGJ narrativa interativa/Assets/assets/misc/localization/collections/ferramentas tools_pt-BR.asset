@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ferramentas tools_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 2da0bf076dae99143baaef2226c0af50, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12925444096
+    m_Localized: "espanador de inseguran\xE7a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161757892608
+    m_Localized: pano da energia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1387965095936
+    m_Localized: vassoura da rebeldia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1711345934336
+    m_Localized: "p\xE1 da juventude"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2242894274560
+    m_Localized: "saco das m\xE1goas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3810037243904
+    m_Localized: extintor de pesadelos
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

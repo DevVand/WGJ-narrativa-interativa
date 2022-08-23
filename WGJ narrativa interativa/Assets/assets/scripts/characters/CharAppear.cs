@@ -15,6 +15,7 @@ public class CharAppear : MonoBehaviour
 
     public void disappear()
     {
+        sprRenderer.enabled = true;
         sprRenderer.colorTransition(new Color(0, 0, 0, 0), fadeTime);
         Invoke(nameof(appear), fadeTime + .1f);
     }
@@ -22,6 +23,7 @@ public class CharAppear : MonoBehaviour
     {
         mainPos.position = cleanPos.position;
         cleanLight.SetActive(true);
+        sprRenderer.enabled = true;
         sprRenderer.colorTransition(appearColor, fadeTime * 2);
         mainPos.position = cleanPos.position;
         mainPos.localScale = cleanPos.localScale;

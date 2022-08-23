@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: char orc punk_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1317c36cc99efe3479db8082449ee7e6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21242748928
+    m_Localized: ;-;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265086464
+    m_Localized: "Um, I don\u2019t know if it isn\u2019t clear but I\u2019m not feeling
+      well to talk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28305956864
+    m_Localized: Uhh, wait... sorry, maybe I want to actually
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31460073472
+    m_Localized: "The thing is\u2026 I\u2019m so wrecked right now and I have no
+      idea what to do!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38963683328
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34899402752
+    m_Localized: "So\u2026 I let my phone on silent and my parents called me 74 times,\r
+      I just missed them"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36694564864
+    m_Localized: "They wanted me to go home early but I didn\u2019t see the time! "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37357264896
+    m_Localized: Yeah I know you want to laugh, I pretend to be a punk...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38070296576
+    m_Localized: "but I\u2019m scared of my parents, okay!?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44500164608
+    m_Localized: But thinking about it, getting a little scolded for a little more
+      time isn't that bad
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

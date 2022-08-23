@@ -10,67 +10,71 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: "z\xE9 passarildo Shared Data"
+  m_Name: char girassol Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: "z\xE9 passarildo"
-  m_TableCollectionNameGuidString: bb4e7ebf5e307d342831903537625533
+  m_TableCollectionName: char girassol
+  m_TableCollectionNameGuidString: 74d9abd5efd667d4f8cb963d1ac5f483
   m_Entries:
-  - m_Id: 11063173120
+  - m_Id: 432364232704
     m_Key: New Entry
     m_Metadata:
       m_Items: []
-  - m_Id: 14842241024
-    m_Key: know me somewhere
+  - m_Id: 439423246336
+    m_Key: New Entry 1
     m_Metadata:
       m_Items: []
-  - m_Id: 16926810112
-    m_Key: when i was younger
+  - m_Id: 443110039552
+    m_Key: New Entry 2
     m_Metadata:
       m_Items: []
-  - m_Id: 19145596928
-    m_Key: not even born
+  - m_Id: 453918760960
+    m_Key: New Entry 3
     m_Metadata:
       m_Items: []
-  - m_Id: 24883404800
-    m_Key: am i too old?
+  - m_Id: 457643302912
+    m_Key: New Entry 4
     m_Metadata:
       m_Items: []
-  - m_Id: 28100435968
-    m_Key: too many young
+  - m_Id: 459862089728
+    m_Key: New Entry 5
     m_Metadata:
       m_Items: []
-  - m_Id: 28855410688
-    m_Key: used to make music
+  - m_Id: 460499623936
+    m_Key: New Entry 6
     m_Metadata:
       m_Items: []
-  - m_Id: 29572636672
-    m_Key: i practiced
+  - m_Id: 461149741056
+    m_Key: New Entry 7
     m_Metadata:
       m_Items: []
-  - m_Id: 30260502528
-    m_Key: everyday
+  - m_Id: 461829218304
+    m_Key: New Entry 8
     m_Metadata:
       m_Items: []
-  - m_Id: 30998700032
-    m_Key: then tv
+  - m_Id: 462605164544
+    m_Key: New Entry 9
     m_Metadata:
       m_Items: []
-  - m_Id: 31749480448
+  - m_Id: 465801224192
     m_Key: New Entry 10
     m_Metadata:
       m_Items: []
-  - m_Id: 1924148142080
-    m_Key: New Entry 1
+  - m_Id: 466736553984
+    m_Key: New Entry 11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5376286826496
+    m_Key: New Entry 12
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 3096031718572032107
+    rid: 3096031743963824128
   references:
     version: 2
     RefIds:
-    - rid: 3096031718572032107
+    - rid: 3096031743963824128
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1661133314098
+        m_CustomEpoch: 1661187091783

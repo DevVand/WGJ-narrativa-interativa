@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
-  m_Name: pouvo booze
+  m_Name: char pano
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: af9a899029fb09d40b0b1fa817b68187, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: 7c0ac49c73abb2e4bb87d6413a6d5e08, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: 5637dde424a9cbe43b6782699b122ba0, type: 2}
-  - {fileID: 11400000, guid: 5ac27eae86eded54f836bd5a86ae2411, type: 2}
+  - {fileID: 11400000, guid: cc46024155fe5c746821c1d55434afca, type: 2}
+  - {fileID: 11400000, guid: 2525b238c42f5a7458adb8e818c5f7bd, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

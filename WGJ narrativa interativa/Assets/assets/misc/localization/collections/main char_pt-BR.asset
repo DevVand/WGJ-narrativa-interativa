@@ -26,6 +26,26 @@ MonoBehaviour:
     m_Localized: :)
     m_Metadata:
       m_Items: []
+  - m_Id: 849936294518784
+    m_Localized: Nem acredito que a festa acabou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 850007882899456
+    m_Localized: Fui uma farofada gigante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 850443062910976
+    m_Localized: "O pior \xE9 que levaria anos pra limpar isso s\xF3..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 850940478005248
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 850968701476864
+    m_Localized: Vou tentar chamar o pessoar >:)
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

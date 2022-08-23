@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: char orc punk_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 1317c36cc99efe3479db8082449ee7e6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21242748928
+    m_Localized: ;-;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265086464
+    m_Localized: "Num sei se num d\xE1 pra perceber mas n\xE3o t\xF4 bem n\xE3o pra
+      falar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28305956864
+    m_Localized: Pera, desculpa... ahn... Na verdade quero!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31460073472
+    m_Localized: "A real \xE9 que t\xF4 muito lascada\u2026 Muito mesmo! N\xE3o sei
+      nem como reagir..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34899402752
+    m_Localized: "Ent\xE3o\u2026 Esqueci o celular no silencioso e meus pais me ligaram
+      74 vezes, s\xF3 vi agora"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36694564864
+    m_Localized: "Eles queriam que eu fosse embora cedo, s\xE3o tipo super protetores,
+      saca?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37357264896
+    m_Localized: "Sei que pago de descolada mas a real \xE9 que tenho medo deles..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38070296576
+    m_Localized: "Pode rir, eu sei, \xE9 at\xE9 engra\xE7ado"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38963683328
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44500164608
+    m_Localized: "Se bem que uma bronca por mais um tempinho aqui n\xE3o seria t\xE3o
+      ruim assim"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: "char z\xE9 passarildo Shared Data"
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: "char z\xE9 passarildo"
+  m_TableCollectionNameGuidString: bb4e7ebf5e307d342831903537625533
+  m_Entries:
+  - m_Id: 11063173120
+    m_Key: smoke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14842241024
+    m_Key: know me somewhere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16926810112
+    m_Key: when i was younger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19145596928
+    m_Key: not even born
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24883404800
+    m_Key: am i too old?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28100435968
+    m_Key: too many young
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28855410688
+    m_Key: used to make music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29572636672
+    m_Key: i practiced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30260502528
+    m_Key: everyday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30998700032
+    m_Key: then tv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31749480448
+    m_Key: New Entry 10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1924148142080
+    m_Key: never went a party
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60421715959808
+    m_Key: maybe helping
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3096031718572032107
+  references:
+    version: 2
+    RefIds:
+    - rid: 3096031718572032107
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1661133314098

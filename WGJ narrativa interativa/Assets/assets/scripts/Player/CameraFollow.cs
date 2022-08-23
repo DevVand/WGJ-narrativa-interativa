@@ -6,7 +6,7 @@ public class CameraFollow : MonoBehaviour
 {
     [SerializeField] Transform player;
     [SerializeField] float smooth=10;
-    void Start()
+    private void OnEnable()
     {
         if (player == null)
             player = GameObject.FindGameObjectWithTag("Player").transform;

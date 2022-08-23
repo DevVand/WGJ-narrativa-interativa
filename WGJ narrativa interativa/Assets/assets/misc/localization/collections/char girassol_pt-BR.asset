@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: char girassol_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 74d9abd5efd667d4f8cb963d1ac5f483, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 432364232704
+    m_Localized: "Cara\u2026 essa festa me deixou meio pra baixo..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439423246336
+    m_Localized: "N\xE3o precisa se importar comigo, pode ir com algu\xE9m mais interessante
+      se quiser"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443110039552
+    m_Localized: "Lliteralmente qualquer um... Eu sou s\xF3 uma planta..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453918760960
+    m_Localized: Me sinto esquisito..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457643302912
+    m_Localized: "Cara\u2026 J\xE1 sentiu como se voc\xEA fosse diferente de todo
+      mundo que conhece?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459862089728
+    m_Localized: E se sentisse pra baixo o tempo inteiro por isso?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460499623936
+    m_Localized: "Como se todos vivessem uma realidade que \xE9 \xF3bvia pra eles,
+      mas voc\xEA n\xE3o se encaixa\u2026 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 461149741056
+    m_Localized: Como uma ovelha negra. Ou no caso, apenas uma erva daninha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 461829218304
+    m_Localized: "... Sei l\xE1, sei que \xE9 um papo estranho"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462605164544
+    m_Localized: "S\xF3 queria parar de me odiar por ser esquisito"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465801224192
+    m_Localized: Pensei em me entrosar nessa festa mas no fim fiquei apenas autoconsciente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466736553984
+    m_Localized: "N\xE3o falei com ningu\xE9m. Pfft, uma piada, n\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5376286826496
+    m_Localized: "Mas quer saber? talvez ajudar voc\xEAs me fa\xE7a entrosar um pouco"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

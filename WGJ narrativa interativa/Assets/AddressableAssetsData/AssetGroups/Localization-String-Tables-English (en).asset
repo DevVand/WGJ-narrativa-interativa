@@ -48,7 +48,7 @@ MonoBehaviour:
     - Locale-en
     - Preload
   - m_GUID: 5637dde424a9cbe43b6782699b122ba0
-    m_Address: pouvo booze_en
+    m_Address: char pouvo booze_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -60,7 +60,31 @@ MonoBehaviour:
     - Locale-en
     - Preload
   - m_GUID: 7910a2c042c9e1342bb12b80ba8b37a7
-    m_Address: "z\xE9 passarildo_en"
+    m_Address: "char z\xE9 passarildo_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 6f12c377646378b4fa9a8076a5bb6ec9
+    m_Address: char orc punk_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 8f5058408f642d44bb6b3c9f5d41601f
+    m_Address: char girassol_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: cc46024155fe5c746821c1d55434afca
+    m_Address: char pano_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 7daecfa8d04d142448d673c017a046b9
+    m_Address: ferramentas tools_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

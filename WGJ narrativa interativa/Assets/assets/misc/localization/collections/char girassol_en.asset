@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: char girassol_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 74d9abd5efd667d4f8cb963d1ac5f483, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 432364232704
+    m_Localized: "Man, this party got me kinda sad\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439423246336
+    m_Localized: "Don\u2019t mind me. You can talk to someone more interesting\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443110039552
+    m_Localized: "Literally anyone.\r.. I\u2019m just a sad plant..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453918760960
+    m_Localized: I feel strange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457643302912
+    m_Localized: "Man\u2026 do you ever felt like you\u2019re just different from
+      anyone else"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459862089728
+    m_Localized: 'And that brings you down everytime you think about it? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460499623936
+    m_Localized: "Like, everyone is just living in a way that seems obvious, but
+      not to you\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 461149741056
+    m_Localized: 'Like, an outsider, an intruder... Just a wild plant or piece of
+      grass.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 461829218304
+    m_Localized: "\u2026 I don\u2019t know man, I know it\u2019s just some boring
+      rant"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462605164544
+    m_Localized: I just wanted to stop hating myself for being weird
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465801224192
+    m_Localized: "I thought I was going to talk to people here but after all\r  I
+      just got too self conscious\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466736553984
+    m_Localized: "I didn\u2019t talk to anyone. Pfft, what a joke, isn\u2019t it?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5376286826496
+    m_Localized: But know what? maybe helping you can make me socialize a bit
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

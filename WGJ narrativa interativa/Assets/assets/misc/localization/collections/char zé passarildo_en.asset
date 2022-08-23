@@ -10,67 +10,69 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: "z\xE9 passarildo_pt-BR"
+  m_Name: "char z\xE9 passarildo_en"
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: pt-BR
+    m_Code: en
   m_SharedData: {fileID: 11400000, guid: bb4e7ebf5e307d342831903537625533, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
   - m_Id: 11063173120
-    m_Localized: "Hum\u2026 Acho que vir nessa festa foi um erro. No fim s\xF3 fumei
-      uns\u2026"
+    m_Localized: "Bruh\u2026 I made a mistake by coming here. All I did was smoke
+      some joints\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 14842241024
-    m_Localized: "\rAh, voc\xEA me conhece de algum lugar, voc\xEA diz? "
+    m_Localized: Oh, you say you know me from somewhere?
     m_Metadata:
       m_Items: []
   - m_Id: 16926810112
-    m_Localized: "Ah\u2026 Quando eu era jovem eu aparecia na TV"
+    m_Localized: "Well\u2026 When I was younger I appeared on TV! "
     m_Metadata:
       m_Items: []
   - m_Id: 19145596928
-    m_Localized: "Acho que voc\xEA era crian\xE7a. Talvez voc\xEA nem nascida era,
-      hehe"
+    m_Localized: "I think you were a kid. Maybe you weren\u2019t even born, heh!"
     m_Metadata:
       m_Items: []
   - m_Id: 24883404800
-    m_Localized: "\rVoc\xEA tamb\xE9m me acha muito velho pra estar aqui, n\xE3o
-      acha? "
+    m_Localized: "You think I\u2019m too old for being in this party, don\u2019t
+      you? "
     m_Metadata:
       m_Items: []
   - m_Id: 28100435968
-    m_Localized: "Eu sei, s\xF3 tem jovem aqui. Ugh. Tempos que n\xE3o voltam mais"
+    m_Localized: "Too many young people here. Ugh\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 28855410688
-    m_Localized: "Jovem, quando eu tinha sua idade eu cantava, fazia m\xFAsica com
-      tudo que me dessem"
+    m_Localized: Kid, when I was young I used to sing and make music from everything
+      people gave me.
     m_Metadata:
       m_Items: []
   - m_Id: 29572636672
-    m_Localized: Usei toda minha juventude praticando
+    m_Localized: I used all my youth practicing
     m_Metadata:
       m_Items: []
   - m_Id: 30260502528
-    m_Localized: "Todo dia, toda noite cantando, praticando todos os instrumentos
-      poss\xEDveis"
+    m_Localized: "Every day and every night singing, practicing guitar, banjo, piano,
+      flute\u2026 you name it"
     m_Metadata:
       m_Items: []
   - m_Id: 30998700032
-    m_Localized: " Viol\xE3o, guitarra, banjo, piano, flauta\u2026 Todo tipo mesmo.
-      Da\xED eu aparecia na TV"
+    m_Localized: Then I appeared on TV.
     m_Metadata:
       m_Items: []
   - m_Id: 31749480448
-    m_Localized: "Mas agora sinto que n\xE3o aproveitei minha juventude direito,
-      sabe?"
+    m_Localized: "\rBut now I feel like I haven\u2019t enjoyed my youth properly\n"
     m_Metadata:
       m_Items: []
   - m_Id: 1924148142080
-    m_Localized: "N\xE3o ia em festas, n\xE3o aproveitei nada\u2026 Que desperd\xEDcio..."
+    m_Localized: "You know? Never went to a party at that time\u2026 What a waste"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60421715959808
+    m_Localized: Maybe returning to help other on this kind of stuff can make me
+      fell something
     m_Metadata:
       m_Items: []
   references:
