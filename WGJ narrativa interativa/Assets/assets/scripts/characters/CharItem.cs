@@ -20,6 +20,12 @@ public class CharItem : MonoBehaviour
     [SerializeField] UnityEvent fadeOff;
     [SerializeField] float fadeTime = 1;
     bool acceptingItem = true;
+
+    GameManager manager;
+    private void Start()
+    {
+        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+    }
     public bool giveItem(int index) {
         if (index == rightItemIndex && acceptingItem)
         {
