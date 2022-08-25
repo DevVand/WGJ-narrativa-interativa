@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] int needToFinish = 5;
     [SerializeField] UnityEvent finished;
-    List<FinishedCharacter> finishedCharacters;
+    [SerializeField] List<FinishedCharacter> finishedCharacters;
     [SerializeField] float appearDelay = .3f;
     EndingAppear anim;
     int actualChar = 0;
@@ -25,20 +25,27 @@ public class GameManager : MonoBehaviour
         anim = GameObject.FindGameObjectWithTag("End Anim").GetComponent<EndingAppear>();
     }
     public void showChars() {
+        StartCoroutine(showCharsCO());
     }
 
     IEnumerator showCharsCO() {
 
-        foreach (var ch in finishedCharacters)
+        int amount = 0;
+        for (int i = finishedCharacters.Count-1; i >= 0; i--)
         {
-            if (ch.rightItem)
+            
+            if (finishedCharacters[i].rightItem)
             {
-                anim.addAnim(ch.charIndex);
+                amount++;
+                anim.addAnim(finishedCharacters[i].charIndex);
                 yield return new WaitForSeconds(appearDelay);
             }
         }
+        anim.showText(amount);
     }
 }
+
+[System.Serializable]
 public class FinishedCharacter {
     public int charIndex;
     public bool rightItem;

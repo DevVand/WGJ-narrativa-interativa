@@ -49,7 +49,7 @@ public class CharItem : MonoBehaviour
         fadeOff.Invoke();
         sprRenderer.enabled = false;
         appear.disappear();
-        Invoke(nameof(wrongChar), 2);
+        Invoke(nameof(rightChar), 2);
     }
     public void leave() {
         col.offset = Vector2.up * 100;

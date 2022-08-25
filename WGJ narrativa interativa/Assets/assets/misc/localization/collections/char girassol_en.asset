@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 443110039552
-    m_Localized: "Literally anyone.\r.. I\u2019m just a sad plant..."
+    m_Localized: "Literally anyone\nI\u2019m just a sad plant..."
     m_Metadata:
       m_Items: []
   - m_Id: 453918760960
@@ -65,8 +65,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 465801224192
-    m_Localized: "I thought I was going to talk to people here but after all\r  I
-      just got too self conscious\n"
+    m_Localized: 'I thought I was going to talk to people here but after all
+
+      I
+      just got too self conscious
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 466736553984

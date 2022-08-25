@@ -12,16 +12,16 @@ public class StartEverything : MonoBehaviour
 
     private void OnMouseDown()
     {
+        collider.offset = Vector2.up * 100;
         foreach (SpriteRenderer sprR in sprRenderers)
         {
             sprR.colorTransition(new Color(1, 1, 1, 0), timeToFade);
-            Invoke(nameof(callEndOfTransition), timeToFade);
         }
+        Invoke(nameof(callEndOfTransition), timeToFade);
     }
 
     public void callEndOfTransition()
     {
-        collider.offset = Vector2.up * 100;
         endOfTransition.Invoke();
     }
 

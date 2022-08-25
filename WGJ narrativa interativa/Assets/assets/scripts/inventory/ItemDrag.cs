@@ -55,6 +55,7 @@ public class ItemDrag : MonoBehaviour
     private void OnMouseUp()
     {
         draggingThis = false;
+        itemLocalize.StringReference = empty;
         if (actualCharacter!=null && Mathf.Abs(realPos.localPosition.y-returnPos.localPosition.y)>distanceFromOrigin && giveItem())
         {
             inv.close();

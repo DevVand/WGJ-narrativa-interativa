@@ -1288,15 +1288,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mr.Wings
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b1ead1905fc47de4bb680b44dfcff434, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: b1ead1905fc47de4bb680b44dfcff434, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 52e79c373e1be88419fc80e262795aeb, type: 2}
+  m_sharedMaterial: {fileID: -3992430719480839971, guid: 52e79c373e1be88419fc80e262795aeb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 63.8
+  m_fontSize: 58.95
   m_fontSizeBase: 69.3
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1584,17 +1584,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3test3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4d88a60de5157934c964aca751e0597a, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 4d88a60de5157934c964aca751e0597a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 040b0b37c55f8104ab1b5837141eb0f0, type: 2}
+  m_sharedMaterial: {fileID: 898071610744234334, guid: 040b0b37c55f8104ab1b5837141eb0f0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1611,8 +1611,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.28
-  m_fontSizeBase: 57.28
+  m_fontSize: 53.55
+  m_fontSizeBase: 53.55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -46,6 +46,14 @@ MonoBehaviour:
     m_Localized: Vou tentar chamar o pessoar >:)
     m_Metadata:
       m_Items: []
+  - m_Id: 1842763212169216
+    m_Localized: a limpeza levou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1845546552303616
+    m_Localized: minutos para acabar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
