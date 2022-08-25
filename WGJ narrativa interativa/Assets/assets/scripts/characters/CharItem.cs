@@ -49,11 +49,21 @@ public class CharItem : MonoBehaviour
         fadeOff.Invoke();
         sprRenderer.enabled = false;
         appear.disappear();
+        Invoke(nameof(wrongChar), 2);
     }
     public void leave() {
         col.offset = Vector2.up * 100;
         fadeOff.Invoke();
         sprRenderer.colorTransition(new Color(0, 0, 0, 0), fadeTime);
-        Destroy(mainObject, 2);
+        Invoke(nameof(wrongChar), 1.5f);
+        Destroy(mainObject, 3);
+    }
+
+    public void rightChar() {
+        manager.characterFinished(rightItemIndex, true);
+    }
+    public void wrongChar()
+    {
+        manager.characterFinished(rightItemIndex, false);
     }
 }
