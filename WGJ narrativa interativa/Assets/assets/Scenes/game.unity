@@ -10183,6 +10183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d100a6ece29d2349b25cbfc1c50ba72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyByTag: 1
   tagName: Mouse
 --- !u!114 &1757812478
 MonoBehaviour:
@@ -10809,6 +10810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d100a6ece29d2349b25cbfc1c50ba72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyByTag: 1
   tagName: GameController
 --- !u!1001 &1845757471
 PrefabInstance:
@@ -10943,6 +10945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d100a6ece29d2349b25cbfc1c50ba72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyByTag: 0
   tagName: Respawn
 --- !u!1 &1852388911
 GameObject:

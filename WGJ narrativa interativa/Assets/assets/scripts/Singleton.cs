@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Singleton : MonoBehaviour
 {
+    [SerializeField] bool destroyByTag = true;
     [SerializeField] string tagName = "";
     void Awake()
     {
-        GameObject[] objs = GameObject.FindGameObjectsWithTag(tagName);
-
-        if (objs.Length > 1)
+        if (destroyByTag)
         {
-            Destroy(this.gameObject);
-            return;
+            GameObject[] objs = GameObject.FindGameObjectsWithTag(tagName);
+            if (objs.Length > 1)
+            {
+                Destroy(this.gameObject);
+                return;
+            }
         }
         transform.SetParent(null);
         DontDestroyOnLoad(this.gameObject);
